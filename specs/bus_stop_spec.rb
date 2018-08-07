@@ -17,6 +17,9 @@ class BussStopTest < Minitest::Test
     assert_equal("Stockbridge", @bus_stop.name)
   end
 
+  def test_get_queue_count
+    assert_equal(0, @bus_stop.queue_count)
+  end
 
 
 end
