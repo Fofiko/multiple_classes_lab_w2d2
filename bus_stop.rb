@@ -13,5 +13,9 @@ attr_reader :name
     return @queue.length()
   end
 
+  def join_queue(person)
+    @queue << person
+  end
+
 
 end

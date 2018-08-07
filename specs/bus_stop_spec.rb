@@ -21,5 +21,10 @@ class BussStopTest < Minitest::Test
     assert_equal(0, @bus_stop.queue_count)
   end
 
+  def test_join_queue
+    @bus_stop.join_queue(@Sally)
+    assert_equal(1, @bus_stop.queue_count)
+  end
+
 
 end
