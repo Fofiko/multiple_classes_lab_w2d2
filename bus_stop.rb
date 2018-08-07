@@ -1,6 +1,6 @@
 class BusStop
 
-attr_reader :name
+attr_reader :name, :queue
 
 
 
@@ -22,11 +22,9 @@ attr_reader :name
     @queue = []
   end
 
-# ## undefined method??
-#   def pick_up_from_stop(person)
-#     @queue.delete(person)
-#     @passengers << person
-#   end
+
+
+
 
 
 
