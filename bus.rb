@@ -25,7 +25,9 @@ class Bus
   end
 
   def empty
-    @passengers = []    
+    @passengers = []
   end
+
+
 
 end

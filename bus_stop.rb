@@ -18,4 +18,17 @@ attr_reader :name
   end
 
 
+  def empty_queue
+    @queue = []
+  end
+
+# ## undefined method??
+#   def pick_up_from_stop(person)
+#     @queue.delete(person)
+#     @passengers << person
+#   end
+
+
+
+
 end
